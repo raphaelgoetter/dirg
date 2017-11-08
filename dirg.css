@@ -18,5 +18,6 @@
   .grid-container > * {
     grid-column: auto / span var(--grid-col);
     grid-row: auto / span var(--grid-row);
+    min-width: 0;
   }
 }
