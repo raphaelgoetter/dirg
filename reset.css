@@ -1,0 +1,38 @@
+/* Reset */
+
+body {
+  margin: 2rem;
+}
+
+.grid-container>div {
+  padding: 1rem;
+  color: #fff;
+}
+
+.grid-container>div:nth-of-type(1) {
+  background: orange;
+}
+
+.grid-container>div:nth-of-type(2) {
+  background: hotpink;
+}
+
+.grid-container>div:nth-of-type(3) {
+  background: olivedrab;
+}
+
+.grid-container>div:nth-of-type(4) {
+  background: dodgerblue;
+}
+
+.grid-container>div:nth-of-type(5) {
+  background: slategray;
+}
+
+.grid-container>div:nth-of-type(6) {
+  background: tomato;
+}
+
+.grid-container>div:nth-of-type(7) {
+  background: peru;
+}
