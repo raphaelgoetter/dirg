@@ -15,6 +15,8 @@ Demo : https://codepen.io/raphaelgoetter/pen/XzdeRe?editors=1100
 </div>
 ```
 
+![result](https://raw.githubusercontent.com/raphaelgoetter/dirg/master/dirg.png)
+
 ```
 :root {
   --grid-number: auto;
