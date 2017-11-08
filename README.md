@@ -3,8 +3,18 @@ DIRG is a pure CSS ultra-light Grid Framework
 
 Demo : https://codepen.io/raphaelgoetter/pen/XzdeRe?editors=1100
 
+# Install
+
+<del>nodeJS</del> <del>jQuery</del> <del>JavaScript</del> <del>Sass</del>
+
+Just use `dirg.css` (few octets)
+
+# Howto?
+
+# Compatibility
+
 ```
-<div class="grid-container" style="--grid-number: 3; --grid-gutter: 1rem;">
+<div class="dirg" style="--grid-number: 3; --grid-gutter: 1rem;">
   <div>1</div>
   <div>2</div>
   <div style="--grid-col: 2;">3</div>
@@ -25,17 +35,17 @@ Demo : https://codepen.io/raphaelgoetter/pen/XzdeRe?editors=1100
   --grid-row: 1;
 }
 
-.grid-container {
+.dirg {
   display: grid;
   grid-gap: var(--grid-gutter);
   grid-auto-flow: row dense;
 }
 
 @media (min-width: 576px) {
-  .grid-container {
+  .dirg {
     grid-template-columns: repeat(var(--grid-number), 1fr);
   }
-  .grid-container > * {
+  .dirg > * {
     grid-column: auto / span var(--grid-col);
     grid-row: auto / span var(--grid-row);
   }
