@@ -11,7 +11,12 @@ Just use `dirg.css` (few octets)
 
 # Howto?
 
-# Compatibility
+# FAQ
+
+- Compatibility
+- Licence
+
+# Example
 
 ```
 <div class="dirg" style="--grid-number: 3; --grid-gutter: 1rem;">
