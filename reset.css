@@ -5,35 +5,35 @@ body {
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
 }
 
-.dirg>div {
+.DIRG>div {
   padding: 1rem;
   color: #fff;
 }
 
-.dirg>div:nth-of-type(1) {
+.DIRG>div:nth-of-type(1) {
   background: orange;
 }
 
-.dirg>div:nth-of-type(2) {
+.DIRG>div:nth-of-type(2) {
   background: hotpink;
 }
 
-.dirg>div:nth-of-type(3) {
+.DIRG>div:nth-of-type(3) {
   background: olivedrab;
 }
 
-.dirg>div:nth-of-type(4) {
+.DIRG>div:nth-of-type(4) {
   background: dodgerblue;
 }
 
-.dirg>div:nth-of-type(5) {
+.DIRG>div:nth-of-type(5) {
   background: slategray;
 }
 
-.dirg>div:nth-of-type(6) {
+.DIRG>div:nth-of-type(6) {
   background: tomato;
 }
 
-.dirg>div:nth-of-type(7) {
+.DIRG>div:nth-of-type(7) {
   background: peru;
 }
