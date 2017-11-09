@@ -36,12 +36,12 @@ Nah. Inline *styles* are bad. Here, you just change the value of a variable. No 
 
 ## Compatibility
 
-- Grid Layout : Edge 16
-- CSS custom properties (variables) : Edge 16
+- Grid Layout : Edge 16 https://caniuse.com/#feat=css-grid
+- CSS custom properties (variables) : Edge 16 https://caniuse.com/#feat=css-variables
 
 ## Licence
 
-(WTFPL)[http://www.wtfpl.net/]
+WTFPL http://www.wtfpl.net/
 
 # Full Example
 
