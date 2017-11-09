@@ -26,7 +26,7 @@ will design a 3 columns grid with a 1rem gutter between children.
 - `--grid-number`: number of columns inside the grid. (apply on parent) (default value: `auto`)
 - `--grid-gutter` gutter size between children. (apply on parent) (default value: `0`)
 - `--grid-col` column spanning (apply on child). (default value: `1`)
-- `--grid-row` row spanning (apply on child). (default value: `1`)
+- `--grid-row` row spanning (apply o n child). (default value: `1`)
 
 # FAQ
 
