@@ -3,6 +3,7 @@
   --grid-gutter: 0;
   --grid-col: 1;
   --grid-row: 1;
+  --grid-order: 0;
 }
 
 .DIRG {
@@ -18,6 +19,7 @@
   .DIRG > * {
     grid-column: auto / span var(--grid-col);
     grid-row: auto / span var(--grid-row);
+    order: var(--grid-order);
     min-width: 0;
   }
 }

@@ -26,13 +26,14 @@ will design a 3 columns grid with a 1rem gutter between children.
 - `--grid-number`: number of columns inside the grid. (apply on parent) (default value: `auto`)
 - `--grid-gutter` gutter size between children. (apply on parent) (default value: `0`)
 - `--grid-col` column spanning (apply on child). (default value: `1`)
-- `--grid-row` row spanning (apply o n child). (default value: `1`)
+- `--grid-row` row spanning (apply on child). (default value: `1`)
+- `--grid-order` affects visual order of element (apply on child). (default value: `0`, change to `-1` to appear first, or `1` to appear last)
 
 # FAQ
 
 ## But inline `style=` is bad!
 
-Nah. Inline *styles* are bad. Here, you just change the value of a variable. No real properties will be hurt.
+Nah. Inline *styles* are bad, right. Here, you just change the value of a variable. No real properties will be hurt.
 
 ## Compatibility
 
