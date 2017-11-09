@@ -24,14 +24,24 @@ will design a 3 columns grid with a 1rem gutter between children.
 # Variables
 
 - `--grid-number`: number of columns inside the grid. (apply on parent) (default value: `auto`)
-- `--grid-gutter` gutter size between children (apply on parent) (default value: `0`)
-- `--grid-col` column spanning (apply on child) (default value: `1`)
-- `--grid-row` row spanning (apply on child) (default value: `1`)
+- `--grid-gutter` gutter size between children. (apply on parent) (default value: `0`)
+- `--grid-col` column spanning (apply on child). (default value: `1`)
+- `--grid-row` row spanning (apply on child). (default value: `1`)
 
 # FAQ
 
-- Compatibility
-- Licence
+## But inline `style=` is bad!
+
+Nah. Inline *styles* are bad. Here, you just change the value of a variable. No real properties will be hurt.
+
+## Compatibility
+
+- Grid Layout : Edge 16
+- CSS custom properties (variables) : Edge 16
+
+## Licence
+
+(WTFPL)[http://www.wtfpl.net/]
 
 # Full Example
 
@@ -48,28 +58,3 @@ will design a 3 columns grid with a 1rem gutter between children.
 ```
 
 ![result](https://raw.githubusercontent.com/raphaelgoetter/dirg/master/dirg.png)
-
-```
-:root {
-  --grid-number: auto;
-  --grid-gutter: 0;
-  --grid-col: 1;
-  --grid-row: 1;
-}
-
-.DIRG {
-  display: grid;
-  grid-gap: var(--grid-gutter);
-  grid-auto-flow: row dense;
-}
-
-@media (min-width: 576px) {
-  .DIRG {
-    grid-template-columns: repeat(var(--grid-number), 1fr);
-  }
-  .DIRG > * {
-    grid-column: auto / span var(--grid-col);
-    grid-row: auto / span var(--grid-row);
-  }
-}
-```
