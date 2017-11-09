@@ -1,0 +1,1 @@
+:root{--grid-number: auto;--grid-gutter: 0;--grid-col: 1;--grid-row: 1;--grid-order: 0}.DIRG{display:grid;grid-gap:var(--grid-gutter);grid-auto-flow:row dense}@media (min-width:576px){.DIRG{grid-template-columns:repeat(var(--grid-number),1fr)}.DIRG>*{grid-column:auto/span var(--grid-col);grid-row:auto/span var(--grid-row);order:var(--grid-order);min-width:0}}
