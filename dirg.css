@@ -1,4 +1,4 @@
-:root {
+.DIRG {
   --grid-number: auto;
   --grid-gutter: 0;
   --grid-col: 1;
@@ -8,13 +8,12 @@
 
 .DIRG {
   display: grid;
-  grid-gap: var(--grid-gutter);
-  grid-auto-flow: row dense;
+  gap: var(--grid-gutter, 0);
 }
 
 @media (min-width: 576px) {
   .DIRG {
-    grid-template-columns: repeat(var(--grid-number), 1fr);
+    grid-template-columns: repeat(var(--grid-number, 1), 1fr);
   }
   .DIRG > * {
     grid-column: auto / span var(--grid-col, auto);

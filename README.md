@@ -7,7 +7,7 @@ Demo : https://codepen.io/raphaelgoetter/pen/XzdeRe?editors=1100
 
 <del>nodeJS</del> <del>jQuery</del> <del>JavaScript</del> <del>Sass</del>
 
-Just use `dirg.min.css` (362 Bytes)
+Just use `dirg.min.css` (337 Bytes)
 
 # Howto?
 
