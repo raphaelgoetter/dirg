@@ -7,7 +7,7 @@ Demo : https://codepen.io/raphaelgoetter/pen/XzdeRe?editors=1100
 
 <del>nodeJS</del> <del>jQuery</del> <del>JavaScript</del> <del>Sass</del>
 
-Just use `dirg.min.css` (337 Bytes)
+Just use `dirg.min.css` (429 Bytes)
 
 # Howto?
 
@@ -27,6 +27,8 @@ will design a 3 columns grid with a 1rem gutter between children.
 - `--grid-gutter` gutter size between children. (apply on parent) (default value: `0`)
 - `--grid-col` column spanning (apply on child). (default value: `1`)
 - `--grid-row` row spanning (apply on child). (default value: `1`)
+- `--grid-col-start` start column for element (apply on child). (default value: `auto`)
+- `--grid-row-start` start row for element (apply on child). (default value: `auto`)
 - `--grid-order` affects visual order of element (apply on child). (default value: `0`, change to `-1` to appear first, or `1` to appear last)
 
 # FAQ
